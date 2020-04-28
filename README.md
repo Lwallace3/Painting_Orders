@@ -7,3 +7,4 @@ A painting shop web application primarily using PHP with MySQL as the database. 
 
 ![](paintingHome.jpg)
 ![](paintingPaintings.jpg)
+![](paintingLogOn.jpg)
