@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    color: darkslategrey;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+    background-attachment: fixed;
+
+}
+
+input{
+    font-size: larger;
+    width: 40vh;
+    height: 4vh;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 2px solid slategray;
+    text-align: center;
+    margin: 20px;
+}
+
+input:focus{
+    font-weight: bolder;
+    outline: none;
+}
+
+button {
+    margin: 5px;
+    background: transparent;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 3px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+button:hover {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.topnav {
+    position: fixed;
+    z-index: 0;
+    background-color: black;
+    overflow: hidden;
+    top:0;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.8rem 1.2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    margin:0;
+}
+
+.topnav .right-side {
+    float: right;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4F4F4F;
+    color: white;
+}

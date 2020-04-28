@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+    background-attachment: fixed;
+}
+
+
+table {
+    overflow: auto;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table, th {
+    border-bottom: 2px solid darkslategrey;
+}
+
+table, td {
+    text-align: center;
+    border-bottom: 2px solid darkslategrey;
+}
+
+.cell:nth-child(even) {
+    background: lightgrey;
+}
+
+.topnav {
+    position: fixed;
+    z-index: 0;
+    background-color: black;
+    overflow: hidden;
+    top:0;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.8rem 1.2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    margin:0;
+}
+
+.topnav .right-side {
+    float: right;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4F4F4F;
+    color: white;
+}
